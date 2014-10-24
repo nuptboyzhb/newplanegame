@@ -13,8 +13,6 @@ Demo Pic
 
 ![image](https://github.com/nuptboyzhb/newplanegame/blob/master/demo/demo1.gif)
 
-![image](https://github.com/nuptboyzhb/newplanegame/blob/master/demo/demo.png)
-
 
 ----------
 
