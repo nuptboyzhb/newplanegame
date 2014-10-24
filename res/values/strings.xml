@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">新版飞机大战</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_start">开始游戏</string>
+    <string name="btn_resume">继续游戏</string>
+    <string name="btn_restart">重新开始</string>
+    <string name="btn_feedback">意见反馈</string>
+    <string name="btn_exit">退出游戏</string>
+    <string name="btn_share">游戏分享</string>
+    <string name="btn_get_cion">获取金币</string>
+    <string name="btn_help">使用帮助</string>
+    <string name="btn_rank">世界排行</string>
+    <string name="btn_submit">提交战绩</string>
+    <string name="pk_error">您的应用为盗版应用，请到官方下载：http://www.mobctrl.net</string>
+    <string name="get_cion_tips">您已没有可用的战斗机，是否重新开始？</string>
+    <string name="app_download_web">http://www.mobctrl.net/planegame.php</string>
+    <string name="app_share">飞机大战出新版啦！#新版飞机大战#，很好玩！推荐一下！</string>
+    <string name="get_cion_error">获取金币失败，请检查您的网络...</string>
+    <string name="award_points">每登陆，奖励5金币^_^</string>
+    <string name="web_set">http://www.mobctrl.net</string>
+</resources>

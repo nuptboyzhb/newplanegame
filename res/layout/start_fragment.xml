@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33cccccc" >
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:id="@+id/rl_point"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" >
+            <ImageView
+                android:id="@+id/iv_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_action_point" />
+            <TextView
+                android:id="@+id/tv_point"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/iv_point"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#FFFFFF00"
+                android:textSize="14sp" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_resume"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_resume"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_start"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_get_coin"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_get_cion"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/btn_rank"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_rank"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_submit"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_share"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/btn_help"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_help"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/btn_feedback"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_feedback"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/btn_exit"
+            android:textColor="#FFFFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

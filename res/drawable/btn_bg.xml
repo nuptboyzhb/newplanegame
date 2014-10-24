@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 正常状态 -->
+    <item><layer-list>
+            <!-- 第一层 -->
+            <item><shape>
+                    <solid android:color="#00000000" />
+                    <corners android:radius="10dp" />
+                    <stroke android:width="1px" android:color="#ffffff" />
+                </shape></item>
+        </layer-list></item>
+</selector>

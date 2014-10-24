@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <RelativeLayout
+        android:id="@+id/rl_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" >
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_tools_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66000000" >
+        <ImageView
+            android:id="@+id/iv_lift1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:src="@drawable/plane_g" />
+        <ImageView
+            android:id="@+id/iv_lift2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/iv_lift1"
+            android:src="@drawable/plane_g" />
+        <ImageView
+            android:id="@+id/iv_lift3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/iv_lift2"
+            android:src="@drawable/plane_g" />
+        <ImageView
+            android:id="@+id/iv_media_open"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/iv_lift3"
+            android:src="@drawable/ic_action_volume_muted" />
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/iv_media_open"
+            android:gravity="center"
+            android:text="200"
+            android:textColor="#FF00FF00" />
+        <TextView
+            android:id="@+id/tv_bubble_count"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="3dp"
+            android:layout_toRightOf="@id/tv_level"
+            android:gravity="center"
+            android:text="200"
+            android:textColor="#FFFFFFFF" />
+        <ImageView
+            android:id="@+id/iv_settings"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_action_settings"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/iv_share"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_action_share" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_tools_bar" >
+    </RelativeLayout>
+</RelativeLayout>
